@@ -6,12 +6,13 @@ public class Main {
 
 	public static void main(String[] args) {
 		
+		Float IOF = 6f;
+		
 		Scanner scan = new Scanner(System.in);
-		CurrencyConverter calcula = new CurrencyConverter();
+		CurrencyConverter calcula = new CurrencyConverter(IOF);		
 		
-		calcula.IOF = 6f;
 		
-		System.out.println("===========COMPRA DE DOALR==========");
+		System.out.println("===========COMPRA DE DOLAR==========");
 		System.out.println("Qual a cotação do dólar hoje ?");
 		
 		calcula.cotacao = scan.nextDouble();

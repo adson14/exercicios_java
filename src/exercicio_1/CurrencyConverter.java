@@ -10,6 +10,10 @@ public class CurrencyConverter {
 	public static Float IOF;
 	
 	
+	//Construtor da Classe
+	public CurrencyConverter(Float IOF) {
+		this.IOF = IOF;
+	}
 	
 	public Double calculate(CurrencyConverter dados) {
 		
